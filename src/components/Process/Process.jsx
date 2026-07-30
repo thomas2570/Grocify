@@ -13,7 +13,7 @@ const Process = () => {
         <span>{item.number}</span>
         <div>
 
-          <div>
+          <div >
             <span>{item.icon}</span>
           </div>
 
@@ -34,7 +34,7 @@ const Process = () => {
           <Heading highlight="Our" heading="Process" />
         </div>
 
-        <div>
+        <div className='flex mt-20'>
            {renderSteps}
         </div>
 
